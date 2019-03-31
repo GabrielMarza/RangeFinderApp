@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 26, 2019 at 10:45 AM
+-- Generation Time: Mar 31, 2019 at 03:50 PM
 -- Server version: 5.6.39-cll-lve
 -- PHP Version: 5.6.30
 
@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `country` (
   `id` int(11) NOT NULL,
-  `name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL
+  `country_name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -57,7 +57,7 @@ CREATE TABLE `grade` (
 
 CREATE TABLE `grade_category` (
   `id` int(11) NOT NULL,
-  `category_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `category_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `item_type_id` int(11) NOT NULL,
   `who_grades` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -70,11 +70,11 @@ CREATE TABLE `grade_category` (
 
 CREATE TABLE `item` (
   `id` int(11) NOT NULL,
-  `item_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `item_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `item_type_id` int(11) NOT NULL,
   `location_id` int(11) NOT NULL,
-  `item_location` text CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `item_location` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `owner_id` int(11) NOT NULL,
   `price_per_unit` decimal(8,2) NOT NULL,
   `unit_id` int(11) NOT NULL,
@@ -98,8 +98,8 @@ CREATE TABLE `item_leased` (
   `discount` decimal(8,2) NOT NULL,
   `fee` decimal(8,2) NOT NULL,
   `price_total` decimal(8,2) NOT NULL,
-  `rentiee_grade_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `renter_grade_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL
+  `rentiee_grade_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `renter_grade_description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -110,7 +110,7 @@ CREATE TABLE `item_leased` (
 
 CREATE TABLE `item_type` (
   `id` int(11) NOT NULL,
-  `type_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL
+  `type_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -121,9 +121,9 @@ CREATE TABLE `item_type` (
 
 CREATE TABLE `location` (
   `id` int(11) NOT NULL,
-  `postal_code` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `descriptioni` text CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `postal_code` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `descriptioni` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `country_id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -135,7 +135,7 @@ CREATE TABLE `location` (
 
 CREATE TABLE `unit` (
   `id` int(11) NOT NULL,
-  `unit_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL
+  `unit_name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -146,14 +146,16 @@ CREATE TABLE `unit` (
 
 CREATE TABLE `user_account` (
   `id` int(11) NOT NULL,
-  `username` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `password` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `username` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `location_id` int(11) NOT NULL,
-  `location_details` text CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `phone` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `mobile` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
-  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `location_details` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `phone` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mobile` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `avatar` blob NOT NULL,
+  `password` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `verification_key` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `is_email_verified` tinyint(1) NOT NULL,
   `registration_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
