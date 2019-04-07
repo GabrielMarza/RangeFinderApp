@@ -6,9 +6,9 @@
 	//myapp.com/edit.php?id=5
 	$user_id = $_GET['user_id'];
 
-	$dsn = "mysql:host=localhost;dbname=RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza";
-	$dbpassword = "WEn7Y7LVha8NYsW";
+	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
+	$dbusername = "marza_IMM";
+	$dbpassword = "xcttqM8g8Fu2KCH";
 
 	$pdo = new PDO($dsn, $dbusername, $dbpassword);
 
@@ -33,7 +33,7 @@
 	<nav>
 		<ul>
 			<li class="dropdownBtn"><img id="" src="img/logo.png" /></li>
-			<li class=""><a href="index.html">Home</a></li>
+			<li class=""><a href="index.php">Home</a></li>
 			<?php if ($_SESSION['logged-in'] == true) { ?>
 				<li class=""><a href="rentlist.php">Rent Something</a></li>
 				<li class=""><a href="rentout.php">Rent your own tools out</a></li>
@@ -41,9 +41,9 @@
 				<li class=""><a href="logout.php">logout</a></li>
 				<?php
 			}else{ ?>
-				<li class=""><a href="login.html">Login</a></li>
-				<li class=""><a href="register.html">Register</a></li>
-			<?php } ?>
+					<li class=""><a href="login.php">Login</a></li>
+					<li class=""><a href="register.php">Register</a></li>
+				<?php } ?>
 		</ul>
 	</nav>
 </header>

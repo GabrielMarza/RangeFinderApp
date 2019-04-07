@@ -9,13 +9,13 @@
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 
-	$dsn = "mysql:host=localhost;dbname=RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza";
-	$dbpassword = "WEn7Y7LVha8NYsW";
+	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
+	$dbusername = "marza_IMM";
+	$dbpassword = "xcttqM8g8Fu2KCH";
 
 	$pdo = new PDO($dsn, $dbusername, $dbpassword);
 
-	$stmt = $pdo->prepare("INSERT INTO `users` (`user_id`, `fname`, `lname`, `address`, `postal_code` `phone`, `email`, `password`,) VALUES (NULL, '$fname', '$lname', '$address', '$postal_code', '$phone', '$email', '$password',); ");
+	$stmt = $pdo->prepare("INSERT INTO `users` (`user_id`, `fname`, `lname`, `address`, `postal_code` `phone`, `email`, `password`) VALUES (NULL, '$fname', '$lname', '$address', '$postal_code', '$phone', '$email', '$password'); ");
 
 	$stmt->execute();
 

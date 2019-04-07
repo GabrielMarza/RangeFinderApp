@@ -5,9 +5,9 @@
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 
-	$dsn = "mysql:host=localhost;dbname=RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza";
-	$dbpassword = "WEn7Y7LVha8NYsW";
+	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
+	$dbusername = "marza_IMM";
+	$dbpassword = "xcttqM8g8Fu2KCH";
 
 	$pdo = new PDO($dsn, $dbusername, $dbpassword);
 
