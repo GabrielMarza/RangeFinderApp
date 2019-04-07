@@ -2,8 +2,8 @@
 	session_start();
 
 	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza_IMM";
-	$dbpassword = "xcttqM8g8Fu2KCH";
+	$dbusername = "marza_RANGE";
+	$dbpassword = "0+BqNh-giRnw";
 
 	$pdo = new PDO($dsn, $dbusername, $dbpassword);
 ?>
@@ -42,7 +42,7 @@
 			<form method='post' action='process-login.php'>
 				<fieldset>
 					<p>E-mail: </p><input type="email" name="email" placeholder="example@email.com" required="" />
-					<p>Password: </p><input type="password" name="password" placeholder="********" required="" />
+					<p>Password: </p><input type="text" name="password" placeholder="********" required="" />
 					<p>Submit! </p><input id="loginBtn" type="submit" name="submit" />
 				</fieldset>
 			</form>

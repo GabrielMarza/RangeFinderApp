@@ -1,21 +1,23 @@
 <?php
 
 session_start();
+echo "HELLO!";
 
 if($_SESSION['logged-in'] == false){
 	echo("You are not allowed to view this page");
 	?><a href="login.php">Go to login</a><?php
-}else{
+} else {
 
 	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza_IMM";
-	$dbpassword = "xcttqM8g8Fu2KCH";
+	$dbusername = "marza_RANGE";
+	$dbpassword = "0+BqNh-giRnw";
 
 	$pdo = new PDO($dsn, $dbusername, $dbpassword);
 
 	$stmt = $pdo->prepare("SELECT * FROM `users`");
 
 	$stmt->execute();
+}
 
 ?>
 <!DOCTYPE html>
