@@ -32,7 +32,7 @@
 			<li class="dropdownBtn"><img id="" src="img/logo.png" /></li>
 			<li class=""><a href="index.php">Home</a></li>
 			<?php if ($_SESSION['logged-in'] == true) { ?>
-				<li class=""><a href="rentlist.php">Rent Something</a></li>
+				<li class=""><a href="rentsomething.php">Rent Something</a></li>
 				<li class=""><a href="rentout.php">Rent your own tools out</a></li>
 				<li class=""><a href="dashboard.php">Dashboard</a></li>
 				<li class=""><a href="logout.php">logout</a></li>
