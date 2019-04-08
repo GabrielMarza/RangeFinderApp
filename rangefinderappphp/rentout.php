@@ -44,7 +44,7 @@ $pdo = new PDO($dsn, $dbusername, $dbpassword);
 			<select name="item_type">
 				<option value="Lens">Lens</option>
 				<option value="Light">Light</option>
-				<option value="DSLR">DSLR</option>
+				<option value="Camera">Camera</option>
 				<option value="Tripod">Tripod</option>
 				<option value="Background">Background</option>
 				<option value="VCamera">Video Camera</option>
@@ -52,6 +52,7 @@ $pdo = new PDO($dsn, $dbusername, $dbpassword);
 			<p>Item Availability: </p><input type="checkbox" name="item_avl" required="" />
 			<p>Description: </p><input type="text" name="description" placeholder="Add a description of your item here." value="" />
 			<p>Daily Rate: </p><input type="text" name="daily_rate" placeholder="" required="" value="" />
+			<p>Date: </p><input type="text" name="item_date" placeholder="" required="" value="" />
 			<p>Image: </p><input type='file' name='image' />
 			<p>Rent Out! </p><input id="" type="submit" name="submit" />
 		</fieldset>
@@ -70,6 +71,7 @@ $pdo = new PDO($dsn, $dbusername, $dbpassword);
 				<p>Item availability: <?php echo($row["item_avl"]); ?></p>
 				<p>Description: <?php echo($row["description"]); ?></p>
 				<p>Daily rate: <?php echo($row["daily_rate"]); ?></p>
+				<p>Date: <?php echo($row["item_date"]); ?></p>
 				<img src="uploads/<?php echo($row["filename"]); ?>" />
 				<a href="uploads/<?php echo($row["filename"]); ?>"><?php echo($row["filename"]); ?></a>
 			</div>

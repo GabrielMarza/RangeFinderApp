@@ -5,6 +5,7 @@
 	$item_avl = $_POST['item_avl'];
 	$description = $_POST['description'];
 	$daily_rate = $_POST['daily_rate'];
+	$item_date = $_POST['item_date'];
 	//upload file
 	$image = 'uploads/';
 	$image = $image . basename($_FILES['image']['name']);
@@ -24,7 +25,7 @@
 
 	$pdo = new PDO($dsn, $dbusername, $dbpassword);
 
-	$stmt = $pdo->prepare("INSERT INTO `item` (`id`, `item_name`, `item_type`, `item_avl`, `description` `daily_rate`, `image`) VALUES (NULL, '$item_name', '$item_type', '$item_avl', '$description', '$daily_rate', '$image'); ");
+	$stmt = $pdo->prepare("INSERT INTO `item` (`id`, `item_name`, `item_type`, `item_avl`, `description` `daily_rate`, `item_date`, `image`) VALUES (NULL, '$item_name', '$item_type', '$item_avl', '$description', '$daily_rate', '$item_date', '$image'); ");
 
 	$stmt->execute();
 

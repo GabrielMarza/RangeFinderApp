@@ -38,7 +38,10 @@
 	<h2>Search Results:</h2>
 	<div class="item-search-container">
 		<?php
-			$sql = "SELECT * FROM item";
+			$item_name = mysqli_real_escape_string($dsn, $_GET['item_name']);
+			$item_date = mysqli_real_escape_string($dsn, $_GET['item_date']);
+
+			$sql = "SELECT * FROM item WHERE item_name='$item_name' AND item_date='$item_date'";
 			$result = mysqli_query($dsn, $dbusername, $dbpassword);
 			$queryResults = mysqli_num_rows($result);
 
