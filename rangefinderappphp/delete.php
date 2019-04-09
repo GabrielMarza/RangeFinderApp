@@ -24,8 +24,11 @@ include 'head-n-header.php';
 </head>
 <body>
 	<div class="bodyContent">
-		<h1>Delete Account</h1>
-		<h2>Are you sure you want to delete this record?</h2>
+
+		<div class="flex-center flex-column">
+			<h1 class="price" style="margin-top: 5%; padding-left: 1.2em; padding-right: 1.2em; font-weight: bold;">Delete Account</h1>
+			<h2 style="font-size: 1.8em; padding-left: 1.2em; padding-right: 1.2em;">Are you sure you want to delete this record?</h2>
+		</div>
 		<p>User ID: <?php echo($row["user_id"]); ?></p>
 		<p>First Name: <?php echo($row["fname"]); ?></p>
 		<p>Last Name: <?php echo($row["lname"]); ?></p>
@@ -38,7 +41,9 @@ include 'head-n-header.php';
 		<?php //interface for confirm or cancel ?>
 		<form action="confirm-delete.php" method="POST">
 			<input type="hidden" value="<?php echo($row["user_id"]); ?>" name="user_id"/>
-			<input type="submit" value="Confirm"/>
+			<button class="btn btn-danger btn-lg" type="submit" name="submit" value="Confirm" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
+				<h3><a href="edit.php?id=<?php echo($row["user_id"]); ?>">Confirm</a></h3>
+			</button>
 		</form>
 	</div>
 </body>

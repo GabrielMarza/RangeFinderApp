@@ -14,23 +14,26 @@ include 'head-n-header.php';
 	<title>Range Finder - Register Account</title>
 </head>
 <body>
-	<div id="register">
-		<h1>Register Page</h1>
-		<h2>Not yet a member? <b>Register here!</b></h2>
-		<form method="POST" enctype="multipary/form-data" action="process-register.php">
-			<fieldset>
-				<p>First Name: </p><input type="text" name="fname" placeholder="Enter your first name." required="" value="" />
-				<p>Last Name: </p><input type="text" name="lname" placeholder="Enter your last name." required="" value="" />
-				<p>Address: </p><input type="text" name="address" placeholder="Enter your address." required="" value="" />
-				<p>ZIP Code: </p><input type="text" name="postal_code" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="L#L-#L#" required="" value="" />
-				<p>E-mail: </p><input type="email" name="email" placeholder="contact@email.com" required="" value="" />
-				<p>Phone Number: </p><input type="tel" name="phone" placeholder="123-456-7890." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="" value="" />
-				<p>Password: </p><input title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password" placeholder="********" />
-				<p>Confirm Password: </p><input title="Please enter the same Password as above." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password2" placeholder="********" />
-				<p>Submit! </p><input id="registerBtn" type="submit" name="submit" />
-			</fieldset>
-		</form>
-		<a href="login.php">Have an account with us? Login over here.</a>
+	<div class="content">
+		<div id="register">
+			<h1 style="margin-top: 15%; padding-left: 1.2em; padding-right: 1.2em; font-weight: bold;">Register Page</h1>
+			<h2 style="font-size: 1.8em; padding-left: 1.2em; padding-right: 1.2em;">Have an account with us? <a href="login.php">Login over here.</a></h2>
+			<form method="POST" enctype="multipary/form-data" action="process-register.php">
+				<fieldset class="container">
+					<input type="text" name="fname" placeholder="Enter your first name." required="" value="" style="margin-top: 25px; width:100%;" />
+					<input type="text" name="lname" placeholder="Enter your last name." required="" value="" style="margin-top: 25px; width:100%;" />
+					<input type="text" name="address" placeholder="Enter your address." required="" value="" style="margin-top: 25px; width:100%;" />
+					<input type="text" name="postal_code" placeholder="Enter your postal code" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="L#L-#L#" required="" value="" style="margin-top: 25px; width:100%;" />
+					<input type="email" name="email" placeholder="example@email.com" required="" value="" style="margin-top: 25px; width:100%;" />
+					<input type="tel" name="phone" placeholder="123-456-7890." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="" value="" style="margin-top: 25px; width:100%;" />
+					<input title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password" placeholder="Password" style="margin-top: 25px; width:100%;" />
+					<input title="Please enter the same Password as above." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password2" placeholder="Confirm password" style="margin-top: 25px; width:100%;" />
+					<button class="btn btn-warning btn-lg" id="registerBtn" type="submit" name="submit" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
+						<b style="font-size: 1.5em;">Submit</b>
+					</button>
+				</fieldset>
+			</form>
+		</div>
 	</div>
 </body>
 <?php

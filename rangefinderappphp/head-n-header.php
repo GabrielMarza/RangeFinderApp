@@ -76,10 +76,10 @@
 		<a class="navbar-brand" href="#"></a>
 		<div id="mySidepanel" class="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-			<a href="index.php">Home</a>
 			<button class="openbtn" onclick="openNav()">☰</button>
 			<?php if ($_SESSION['logged-in'] == true) { ?>
 				<button class="openbtn" onclick="openNav()">☰</button>
+				<a href="index.php">Home</a>
 				<a href="rentsomething.php">Rent Something</a>
 				<a href="rentout.php">Rent your own tools out</a>
 				<a href="dashboard.php">Dashboard</a>
@@ -87,11 +87,12 @@
 				<?php
 			}else{ ?>
 				<button class="openbtn" onclick="openNav()">☰</button>
+				<a href="index.php">Home</a>
 				<a href="login.php">Login</a>
 				<a href="register.php">Register</a>
 			<?php } ?>
 		</div>
-		<button class="openbtn" onclick="openNav()">☰</button>
+		<button class="openbtn row align-items-start" onclick="openNav()">☰</button>
 		<a class="openbtn" href="index.php"><img src="img/home.png"></a>
 		<script>
 		function openNav() {

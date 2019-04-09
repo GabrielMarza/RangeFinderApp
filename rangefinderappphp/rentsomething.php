@@ -8,12 +8,18 @@ include 'head-n-header.php';
 	<title>Range Finder - Rent Results</title>
 </head>
 <body>
-	<form action="search.php" method="post">
-		<input type="text" name="search" placeholder="Search">
-		<button type="submit" name="submit-search">Search</button>
+	<form class="row" style="background-color: #f1b453;" action="search.php" method="post">
+		<div class="col-sm-8">
+			<input type="text" name="search" placeholder="Search" style="margin: 10px; width:95%;" />
+		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-dark btn-lg" type="submit" name="submit-search" style="margin: 10px; width: 95%;">
+				<b style="font-size: 1.5em;">Search</b>
+			</button>
+		</div>
 	</form>
-	<h1>Rent Something</h1>
-	<h2>Search Results:</h2>
+	<h1 style="margin-top: 15%; padding-left: 1.2em; padding-right: 1.2em; font-weight: bold;">Rent Something</h1>
+	<h2 style="font-size: 1.8em; padding-left: 1.2em; padding-right: 1.2em;">Search Results:</h2>
 	<div class="item-search-container">
 		<?php
 		$sql = "SELECT * FROM item";

@@ -1,16 +1,16 @@
 
   body{
       font-size:62.5%;
-      font-family:"Microsoft YaHei",Arial; 
+      font-family:"Microsoft YaHei",Arial;
       overflow-x:hidden; overflow-y:auto;
       background-image: url(img/background.jpg);
     }
-    .viewport{ 
-      max-width:844px; 
-      min-width:300px; 
+    .viewport{
+      max-width:844px;
+      min-width:300px;
       margin:0 auto;
 
-    
+
     }
 
 
@@ -72,15 +72,15 @@ margin-top:-120%;
 
 .searchSec{
   width: 90%;
- 
+
   overflow: auto;
 
-  display:block; 
+  display:block;
   text-align:center;
   margin-top:-130%;
   margin-left: 5%;
 /*  margin-top:-1%;*/
-  
+
 }
 
 
@@ -95,37 +95,37 @@ margin-top:-120%;
     vertical-align: top;
   text-align: center;
   border-radius: .7em;
-  
+
 }
 
 .searchSec .search .searchBar1{
     width:90%;
     height: 90%;
   /*margin-top: 5%;*/
-   
-  
+
+
 }
 
  .searchBar1 input {
       width:180px;
       height: 60px;
-            /*border: 1px solid #f72e05;  
-            border-radius: 5px;  
-            background: #ffffff; */ 
+            /*border: 1px solid #f72e05;
+            border-radius: 5px;
+            background: #ffffff; */
             color: #bdbdbd;
       font-family: "Arial Rounded Mt",arial;
       font-size: 1.5em;
-    
+
           margin-top: %;
-        }  
- .searchBar1 button { 
+        }
+ .searchBar1 button {
       width:20%;
       height:20%;
-            top: 0;  
-          /*  margin-right: 15px;  
+            top: 0;
+          /*  margin-right: 15px;
             background: #f72e05;
           border-radius: 5px;*/
-        }  
+        }
 .searchBar1 button img{
   width: 60%;
   height: 60%;
@@ -137,7 +137,7 @@ margin-top:-120%;
  width: 95%;
   height: 60%;
   margin-top: 10%;
-  
+
 }
 
 
@@ -222,7 +222,7 @@ box-shadow: none;
     margin-top: 12px;
 }
 
-    
+
     * {
 box-sizing: border-box;
 }
@@ -439,5 +439,5 @@ box-shadow: none;
 
 .btn.btn-warning{
 	width:60%;
-	
+
 }*/

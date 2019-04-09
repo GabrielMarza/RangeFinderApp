@@ -11,8 +11,18 @@ include 'head-n-header.php';
 <head>
 	<title>Range Finder - Search Page</title>
 </head>
-<h1>Search Page</h1>
 <body>
+	<form class="row" style="background-color: #f1b453;" action="search.php" method="post">
+		<div class="col-sm-8">
+			<input type="text" name="search" placeholder="Search" style="margin: 10px; width:95%;" />
+		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-dark btn-lg" type="submit" name="submit-search" style="margin: 10px; width: 95%;">
+				<b style="font-size: 1.5em;">Search</b>
+			</button>
+		</div>
+	</form>
+	<h1 style="margin-top: 5%; padding-left: 1.2em; padding-right: 1.2em; font-weight: bold;">Search Results</h1>
 	<div class="item-search-container">
 		<?php
 		if (isset($_POST['submit-search'])) {
@@ -24,6 +34,7 @@ include 'head-n-header.php';
 			// $red = $sth->fetchAll();
 			// $sth->execute(array(175, 'yellow'));
 			// $yellow = $sth->fetchAll();
+
  $search = $_POST['search'];
 			$sth = $pdo->prepare("SELECT * FROM item WHERE item_name LIKE '%$search%'");//
 			$sth->execute();

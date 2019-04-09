@@ -46,7 +46,9 @@ include 'head-n-header.php';
 				<div id="results"></div>
 			</div>
 		</div>
-		<button class="searchBu"><img src="img/searchBu.png"></button>
+		<button class="btn btn-warning btn-lg" type="button" name="submit" style="margin-top: 50px; width: 90%;">
+			<b style="font-size: 1.5em;">Search</b>
+		</button>
 	</div>
 </body>
 <?php
