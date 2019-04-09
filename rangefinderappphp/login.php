@@ -1,55 +1,40 @@
 <?php
-	session_start();
+session_start();
 
-	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza_RANGE";
-	$dbpassword = "0+BqNh-giRnw";
+$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
+$dbusername = "marza_RANGE";
+$dbpassword = "0+BqNh-giRnw";
 
-	$pdo = new PDO($dsn, $dbusername, $dbpassword);
+$pdo = new PDO($dsn, $dbusername, $dbpassword);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Range Finder - Login</title>
-		<link rel="stylesheet" href="/css/reset.css">
-		<link rel="stylesheet" href="/css/style.css">
-	</head>
-	<!-- HEADER GOES HERE -->
-	<header>
-		<nav>
-			<ul>
-				<li class="dropdownBtn"><img id="" src="img/logo.png" /></li>
-				<li class=""><a href="index.php">Home</a></li>
-				<?php if ($_SESSION['logged-in'] == true) { ?>
-					<li class=""><a href="rentsomething.php">Rent Something</a></li>
-					<li class=""><a href="rentout.php">Rent your own tools out</a></li>
-					<li class=""><a href="dashboard.php">Dashboard</a></li>
-					<li class=""><a href="logout.php">logout</a></li>
-					<?php
-				}else{ ?>
-						<li class=""><a href="login.php">Login</a></li>
-						<li class=""><a href="register.php">Register</a></li>
-					<?php } ?>
-			</ul>
-		</nav>
-	</header>
-	<body>
-		<div id="login">
-			<h1>Login Page</h1>
-			<h2>Have an account? <b>Login here!</b></h2>
-			<form method='post' action='process-login.php'>
-				<fieldset>
-					<p>E-mail: </p><input type="email" name="email" placeholder="example@email.com" required="" />
-					<p>Password: </p><input type="text" name="password" placeholder="********" required="" />
-					<p>Submit! </p><input id="loginBtn" type="submit" name="submit" />
-				</fieldset>
-			</form>
-			<a href="register.php">Don't have an account? Register with us today.</a>
-		</div>
-	</body>
-	<!-- FOOTER GOES HERE -->
-	<footer>
-	</footer>
+<?php
+include 'head-n-header.php';
+?>
+<body>
+	<div id="login">
+		<h1>Login Page</h1>
+		<h2>Have an account? <b>Login here!</b></h2>
+		<form method='post' action='process-login.php'>
+			<fieldset>
+				<p>E-mail: </p><input type="email" name="email" placeholder="example@email.com" required="" />
+				<p>Password: </p><input type="text" name="password" placeholder="********" required="" />
+				<p>Submit! </p><input id="loginBtn" type="submit" name="submit" />
+			</fieldset>
+		</form>
+		<a href="register.php">Don't have an account? Register with us today.</a>
+	</div>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+<!-- FOOTER GOES HERE -->
+<footer>
+</footer>
 </html>

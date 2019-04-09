@@ -7,34 +7,9 @@ $dbpassword = "0+BqNh-giRnw";
 
 $pdo = new PDO($dsn, $dbusername, $dbpassword);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Range Finder - Rent Out</title>
-	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="/css/style.css">
-</head>
-<!-- HEADER GOES HERE -->
-<header>
-	<nav>
-		<ul>
-			<li class="dropdownBtn"><img id="" src="img/logo.png" /></li>
-			<li class=""><a href="index.php">Home</a></li>
-			<?php if ($_SESSION['logged-in'] == true) { ?>
-				<li class=""><a href="rentsomething.php">Rent Something</a></li>
-				<li class=""><a href="rentout.php">Rent your own tools out</a></li>
-				<li class=""><a href="dashboard.php">Dashboard</a></li>
-				<li class=""><a href="logout.php">logout</a></li>
-				<?php
-			}else{ ?>
-				<li class=""><a href="login.php">Login</a></li>
-				<li class=""><a href="register.php">Register</a></li>
-			<?php } ?>
-		</ul>
-	</nav>
-</header>
+<?php
+include 'head-n-header.php';
+?>
 <body>
 	<h1>Rent your own tools out</h1>
 	<p>Have any camera, or photography equipment you want to rent out?</p>
@@ -78,6 +53,16 @@ $pdo = new PDO($dsn, $dbusername, $dbpassword);
 		<?php }
 		?>
 	</section>
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 </body>
 <!-- FOOTER GOES HERE -->
 <footer>

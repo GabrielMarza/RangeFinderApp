@@ -1,9 +1,9 @@
 <?php
-	session_start();
+session_start();
 
-	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
-	$dbusername = "marza_RANGE";
-	$dbpassword = "0+BqNh-giRnw";
+$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
+$dbusername = "marza_RANGE";
+$dbpassword = "0+BqNh-giRnw";
 
-	$pdo = new PDO($dsn, $dbusername, $dbpassword);
- ?>
+$pdo = new PDO($dsn, $dbusername, $dbpassword);
+?>

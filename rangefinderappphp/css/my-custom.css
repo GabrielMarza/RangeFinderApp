@@ -1,0 +1,443 @@
+
+  body{
+      font-size:62.5%;
+      font-family:"Microsoft YaHei",Arial; 
+      overflow-x:hidden; overflow-y:auto;
+      background-image: url(img/background.jpg);
+    }
+    .viewport{ 
+      max-width:844px; 
+      min-width:300px; 
+      margin:0 auto;
+
+    
+    }
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #374371;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  font-size: 19px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  color: white;
+  font-size: 3.5em;
+  margin-left:-8em;
+  margin-top: -1.5%;
+  background-color: #374371;
+ border: none;
+}
+hr{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.tb-p-c{
+display: table-cell;
+vertical-align:middle;
+
+text-align:center;
+
+}
+.tb-p-c img {
+width: 50%;
+vertical-align:center;
+margin-top:-120%;
+}
+
+.searchSec{
+  width: 90%;
+ 
+  overflow: auto;
+
+  display:block; 
+  text-align:center;
+  margin-top:-130%;
+  margin-left: 5%;
+/*  margin-top:-1%;*/
+  
+}
+
+
+.searchSec .search{
+  background-color:rgba(255,255,255,1);
+    width:90%;
+  height: 40%;
+  margin-top: 7%;
+
+
+    display:inline-block;
+    vertical-align: top;
+  text-align: center;
+  border-radius: .7em;
+  
+}
+
+.searchSec .search .searchBar1{
+    width:90%;
+    height: 90%;
+  /*margin-top: 5%;*/
+   
+  
+}
+
+ .searchBar1 input {
+      width:180px;
+      height: 60px;
+            /*border: 1px solid #f72e05;  
+            border-radius: 5px;  
+            background: #ffffff; */ 
+            color: #bdbdbd;
+      font-family: "Arial Rounded Mt",arial;
+      font-size: 1.5em;
+    
+          margin-top: %;
+        }  
+ .searchBar1 button { 
+      width:20%;
+      height:20%;
+            top: 0;  
+          /*  margin-right: 15px;  
+            background: #f72e05;
+          border-radius: 5px;*/
+        }  
+.searchBar1 button img{
+  width: 60%;
+  height: 60%;
+  margin-left:130%;
+  margin-bottom: 20%;
+}
+
+.searchSec .searchBu img{
+ width: 95%;
+  height: 60%;
+  margin-top: 10%;
+  
+}
+
+
+    * {
+box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+/*
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+*/
+.login1 {
+margin: -120% auto;
+width: 100%;
+}
+.login-screen {
+/*background-color: #FFF;*/
+padding: 20px;
+border-radius: 1em;
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+.login-field {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+.login-field:focus {
+border: 2px solid #f1b453;
+box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #f1b453;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #f1b453;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #818181;
+  display: block;
+    margin-top: 12px;
+}
+
+    
+    * {
+box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+/*
+body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}
+*/
+.signup1 {
+margin: -140% auto;
+width: 90%;
+}
+.signup-screen {
+/*background-color: #FFF;*/
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.signup-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #f1b453;
+box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: #f1b453;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #f1b453;
+}
+
+.signup-link {
+  font-size: 12px;
+  color: #818181;
+  display: block;
+    margin-top: 12px;
+}
+
+/*.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.productList h3{
+	font-size: 2.3em;
+	margin-top:7%;
+	margin-left: 7%;
+}
+
+.productList span{
+	font-size: 1.5em;
+	margin-top: 3%;
+	margin-left: 7%;
+}
+
+.productList .media .position-relative{
+	margin-top:5%;
+}
+
+        /*去掉标签默认样式*/
+       /* ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        input {
+            margin: 0;
+        }*/
+
+        /*初始化样式*/
+    /*    .star_evaluate {
+            position: relative;
+            width: 100px;
+            height: 20px;
+            background: url(file:///Macintosh%20HD/Users/hurenjing/Documents/Web%20Dev%20project/RangeFinder%203/img/icon-star-default.png)repeat-x;
+            background-size: 20px 20px;
+            overflow: hidden;
+			margin-top: -7%;
+        }
+
+        .star,.score{
+            display: block;
+            height: 20px;
+            width: 20px;
+            position: absolute;
+        }
+        .star{
+            z-index: 2;
+        }
+        .score{
+            opacity: 0;
+        }
+
+        .star_1, .score_1 {
+            left: 0;
+        }
+
+        .star_2, .score_2 {
+            left: 20px;
+        }
+
+        .star_3, .score_3 {
+            left: 40px;
+        }
+
+        .star_4, .score_4 {
+            left: 60px;
+        }
+
+        .star_5, .score_5 {
+            left: 80px;
+        }*/
+
+        /*鼠标悬浮*/
+      /*  .star:hover {
+            cursor: pointer;
+            background: url(file:///Macintosh%20HD/Users/hurenjing/Documents/Web%20Dev%20project/RangeFinder%203/img/icon-star-default.png) repeat-x;
+            background-size: 20px 20px;
+            left: 0;
+            z-index: 1;
+        }
+
+        .star_1:hover {
+            width: 20px;
+        }
+
+        .star_2:hover {
+            width: 40px;
+        }
+
+        .star_3:hover {
+            width: 60px;
+        }
+
+        .star_4:hover {
+            width: 80px;
+        }
+
+        .star_5:hover {
+            width: 100px;
+        }*/
+
+        /*选中之后*/
+        /*.score:checked + .star {
+            background: url(file:///Macintosh%20HD/Users/hurenjing/Documents/Web%20Dev%20project/RangeFinder%203/img/icon-star-active.png) repeat-x;
+            background-size: 20px 20px;
+            left: 0;
+        }
+
+        .score_1:checked + .star_1 {
+            width: 20px;
+        }
+
+        .score_2:checked + .star_2 {
+            width: 40px;
+        }
+
+        .score_3:checked + .star_3 {
+            width: 60px;
+        }
+
+        .score_4:checked + .star_4 {
+            width: 80px;
+        }
+
+        .score_5:checked + .star_5 {
+            width: 100px;
+        }
+
+.btn.btn-warning{
+	width:60%;
+	
+}*/
