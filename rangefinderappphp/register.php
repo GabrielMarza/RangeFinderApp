@@ -10,6 +10,9 @@ $pdo = new PDO($dsn, $dbusername, $dbpassword);
 <?php
 include 'head-n-header.php';
 ?>
+<head>
+	<title>Range Finder - Register Account</title>
+</head>
 <body>
 	<div id="register">
 		<h1>Register Page</h1>
@@ -29,17 +32,7 @@ include 'head-n-header.php';
 		</form>
 		<a href="login.php">Have an account with us? Login over here.</a>
 	</div>
-	<!-- JQuery -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="js/mdb.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
 </body>
-<!-- FOOTER GOES HERE -->
-<footer>
-</footer>
-</html>
+<?php
+include 'javascript-n-footer.php';
+?>

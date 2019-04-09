@@ -61,4 +61,6 @@ $pdo = new PDO($dsn, $dbusername, $dbpassword);
 		</div>
 	</div>
 </body>
-</html>
+<?php
+include 'javascript-n-footer.php';
+?>

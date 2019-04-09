@@ -19,6 +19,9 @@ $row = $stmt->fetch();
 <?php
 include 'head-n-header.php';
 ?>
+<head>
+	<title>Range Finder - Delete Account</title>
+</head>
 <body>
 	<div class="bodyContent">
 		<h1>Delete Account</h1>
@@ -38,18 +41,7 @@ include 'head-n-header.php';
 			<input type="submit" value="Confirm"/>
 		</form>
 	</div>
-
-	<!-- JQuery -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="js/mdb.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
 </body>
-<!-- FOOTER GOES HERE -->
-<footer>
-</footer>
-</html>
+<?php
+include 'javascript-n-footer.php';
+?>

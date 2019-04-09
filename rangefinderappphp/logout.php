@@ -5,6 +5,9 @@ session_destroy();
 <?php
 include 'head-n-header.php';
 ?>
+<head>
+	<title>Range Finder - Logged Out</title>
+</head>
 <body>
 	<h1>You've logged out</h1>
 	<h2><a href="index.php">Back to home page</a></h2>

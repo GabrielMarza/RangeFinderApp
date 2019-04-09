@@ -23,6 +23,9 @@ if($_SESSION['logged-in'] == false){
 <?php
 include 'head-n-header.php';
 ?>
+<head>
+	<title>Range Finder - Dashboard</title>
+</head>
 <body>
 	<h1>Your Dashboard</h1>
 	<section id="person-records">
@@ -49,18 +52,7 @@ include 'head-n-header.php';
 		<?php }
 		?>
 	</section>
-
-	<!-- JQuery -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="js/mdb.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
 </body>
-<!-- FOOTER GOES HERE -->
-<footer>
-</footer>
-</html>
+<?php
+include 'javascript-n-footer.php';
+?>

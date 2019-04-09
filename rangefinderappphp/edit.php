@@ -22,6 +22,9 @@ $row = $stmt->fetch();
 <?php
 include 'head-n-header.php';
 ?>
+<head>
+	<title>Range Finder - Edit Account</title>
+</head>
 <body>
 	<h1>Edit Account</h1>
 	<form action="confirm-update.php" method="POST">
@@ -37,18 +40,7 @@ include 'head-n-header.php';
 		<p>Confirm Password: <input type='password' required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name='password2' value="<?php echo($row["password2"]); ?>"/></p>
 		<input id="registerBtn" type='submit' />
 	</form>
-
-	<!-- JQuery -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="js/mdb.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
 </body>
-<!-- FOOTER GOES HERE -->
-<footer>
-</footer>
-</html>
+<?php
+include 'javascript-n-footer.php';
+?>

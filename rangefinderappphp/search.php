@@ -1,48 +1,51 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 include 'dbhandler.php';
 ?>
 <?php
 include 'head-n-header.php';
 ?>
+<head>
+	<title>Range Finder - Search Page</title>
+</head>
 <h1>Search Page</h1>
+<body>
+	<div class="item-search-container">
+		<?php
+		if (isset($_POST['submit-search'])) {
 
-<div class="item-search-container">
-	<?php
-	if (isset($_POST['submit-search'])) {
-		$search = mysqli_real_escape_string($dsn, $_POST['search']);
-		$sql = "SELECT * FROM item WHERE item_name LIKE '%$search%' OR item_type LIKE '%$search%' OR description LIKE '%$search%'";
-		$result = mysqli_query($dsn, $sql);
+			// $sth = $dbh->prepare('SELECT name, colour, calories
+			//     FROM fruit
+			//     WHERE calories < ? AND colour = ?');
+			// $sth->execute(array(150, 'red'));
+			// $red = $sth->fetchAll();
+			// $sth->execute(array(175, 'yellow'));
+			// $yellow = $sth->fetchAll();
+ $search = $_POST['search'];
+			$sth = $pdo->prepare("SELECT * FROM item WHERE item_name LIKE '%$search%'");//
+			$sth->execute();
 
-		$queryResult = mysqli_num_rows($result);
+			$records = $sth->fetchAll();
+			var_dump($records);
+				foreach ($records as $row) {
+					echo "<a href='item.php?item_name=".$row['item_name']."&item_date=".$row['item_date']."'><div class='item-box'>
+					<h3>".$row['item_name']."</h3>
+					<p>".$row['item_type']."</p>
 
-		echo "There are ". $queryResult." results!";
-
-		if ($queryResult > 0) {
-			while ($row = mysqli_fetch_assoc($result)) {
-				echo "<a href='item.php?item_name=".$row['item_name']."&item_date=".$row['item_date']."'><div class='item-box'>
-				<h3>".$row['item_name']."</h3>
-				<p>".$row['item_type']."</p>
-
-				<p>".$row['item_avl']."</p>
-				<p>".$row['description']."</p>
-				<p>".$row['daily_rate']."</p>
-				<p>".$row['item_date']."</p>
-				<img src=".$row['image'].">
-				</div></a>";
-			}
-		} else {
-			echo "There are no esults matching your search!";
+					<p>".$row['item_avl']."</p>
+					<p>".$row['description']."</p>
+					<p>".$row['daily_rate']."</p>
+					<p>".$row['item_date']."</p>
+					<img src=".$row['image'].">
+					</div></a>";
+				}
 		}
-	}
-	?>
-
-	<!-- JQuery -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- MDB core JavaScript -->
-	<script type="text/javascript" src="js/mdb.min.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-</div>
+		?>
+	</div>
+</body>
+<?php
+include 'javascript-n-footer.php';
+?>
