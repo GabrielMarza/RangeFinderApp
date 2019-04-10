@@ -85,7 +85,7 @@ margin-top:-120%;
 
 
 .searchSec .search{
-  background-color:rgba(255,255,255,1);
+  background-color:#ecf0f1;
     width:90%;
   height: 40%;
   margin-top: 7%;
@@ -109,14 +109,11 @@ margin-top:-120%;
  .searchBar1 input {
       width:180px;
       height: 60px;
-            /*border: 1px solid #f72e05;
-            border-radius: 5px;
-            background: #ffffff; */
-            color: #bdbdbd;
+      color: #bdbdbd;
       font-family: "Arial Rounded Mt",arial;
       font-size: 1.5em;
-
-          margin-top: %;
+      text-align: left;
+      /*margin-top: %;*/
         }
  .searchBar1 button {
       width:20%;
@@ -148,13 +145,7 @@ box-sizing: border-box;
 *:focus {
     outline: none;
 }
-/*
-body {
-font-family: Arial;
-background-color: #3498DB;
-padding: 50px;
-}
-*/
+
 .login1 {
 margin: -120% auto;
 width: 100%;
@@ -258,10 +249,9 @@ text-align: center;
 .control-group {
 margin-bottom: 10px;
 }
-
 input {
 text-align: center;
-background-color: #ECF0F1;
+background-color: #ecf0f1;
 border: 2px solid transparent;
 border-radius: 3px;
 font-size: 16px;

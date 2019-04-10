@@ -7,7 +7,6 @@ if($_SESSION['logged-in'] == false){
 	echo("You are not allowed to view this page");
 	?><a href="login.php">Go to login</a><?php
 } else {
-
 	$dsn = "mysql:host=localhost;dbname=marza_RangeFinderApp;charset=utf8mb4";
 	$dbusername = "marza_RANGE";
 	$dbpassword = "0+BqNh-giRnw";
@@ -32,7 +31,6 @@ include 'head-n-header.php';
 			<?php
 			//show records (process results)
 			while($row = $stmt->fetch()) {
-				//echo($row["email"]); //or $row[0];
 				?><div>
 					<?php echo($row["id"]); ?>
 					<button class="btn btn-warning btn-lg" type="submit" name="submit" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">

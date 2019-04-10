@@ -29,23 +29,23 @@ include 'head-n-header.php';
 	<!-- Search Section -->
 	<div class="searchSec">
 		<div class="search">
-			<div id ="section1" class="searchBar1">
-				<input type = "text" name="search" id="searchInput" placeholder="Product, Category">
-				<button >
-					<img id="searchsubmit" src="img/Searchicon_01.png"/>
-				</button>
-				<div id="results"></div>
-			</div>
-		</div>
-		<div class="search">
-			<div id ="section1" class="searchBar1">
-				<input type = "text" name="search" id="searchInput" placeholder="Location">
-				<button >
-					<img id="searchsubmit" src="img/Searchicon_03.png"/>
-				</button>
-				<div id="results"></div>
-			</div>
-		</div>
+                <div id ="section1" class="searchBar1">
+                      <input type = "text" name="search"  placeholder="Product, Category">
+                      <button>
+                        <img id="searchsubmit" src="img/Searchicon_01.png"/>
+                      </button>
+                      <div id="results"></div>
+                </div>
+        </div>
+         <div class="search">
+                <div id ="section1" class="searchBar1">
+                      <input type = "text" name="search"  placeholder="Location">
+                      <button>
+                        <img id="searchsubmit" src="img/Searchicon_03.png"/>
+                      </button>
+                      <div id="results"></div>
+                </div>
+        </div>
 		<button class="btn btn-warning btn-lg" type="button" name="submit" style="margin-top: 50px; width: 90%;">
 			<b style="font-size: 1.5em;">Search</b>
 		</button>
