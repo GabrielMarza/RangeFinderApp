@@ -35,8 +35,8 @@ include 'head-n-header.php';
 				//echo($row["email"]); //or $row[0];
 				?><div>
 					<?php echo($row["id"]); ?>
-					<button class="btn btn-success btn-lg" type="submit" name="submit" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
-						<h3><a href="edit.php?id=<?php echo($row["user_id"]); ?>">Edit</a></h3>
+					<button class="btn btn-warning btn-lg" type="submit" name="submit" style="margin-top: 50px; margin-bottom: 50px; width: 100%;">
+						<h3><a style="color: white; font-weight: bold;" href="edit.php?id=<?php echo($row["user_id"]); ?>">Edit</a></h3>
 					</button>
 					<p>First name: <?php echo($row["fname"]); ?></p>
 					<p>last name: <?php echo($row["lname"]); ?></p>
