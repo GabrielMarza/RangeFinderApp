@@ -14,7 +14,7 @@ include 'head-n-header.php';
 		</div>
 		<div class="col-sm-4">
 			<button class="btn btn-dark btn-lg" type="submit" name="submit-search" style="margin: 10px; width: 95%;">
-				<b style="font-size: 1.5em;">Search</b>
+				<a href="details.php" style="font-size: 1.5em;">Search</a>
 			</button>
 		</div>
 	</form>
