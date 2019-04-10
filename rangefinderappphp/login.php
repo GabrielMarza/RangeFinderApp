@@ -23,7 +23,7 @@ include 'head-n-header.php';
 			<form method='post' action='process-login.php'>
 				<fieldset class="container">
 					<input type="email" name="email" placeholder="E-mail" required="" style="margin-top: 25px; width:100%;" />
-					<input type="text" name="password" placeholder="Password" required="" style="margin-top: 25px; width:100%;" />
+					<input type="password" name="password" placeholder="Password" required="" style="margin-top: 25px; width:100%;" />
 					<button class="btn btn-warning btn-lg" type="submit" name="submit" style="margin-top: 50px; width: 100%;">
 						<b style="font-size: 1.5em;">Submit</b>
 					</button>
