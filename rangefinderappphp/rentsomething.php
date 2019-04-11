@@ -8,18 +8,22 @@ include 'head-n-header.php';
 	<title>Range Finder - Rent Results</title>
 </head>
 <body>
+	
 	<form class="row" style="background-color: #f1b453;" action="search.php" method="post">
-		<div class="col-sm-8">
-			<input type="text" name="search" placeholder="Search" style="margin: 10px; width:95%;" />
-		</div>
+		<div style="display:flex; margin:5% 5%; "class="topsearch">
 		<div class="col-sm-4">
-			<button class="btn btn-dark btn-lg" type="submit" name="submit-search" style="margin: 10px; width: 95%;">
-				<a href="details.php" style="color: white; font-weight: bold; font-size: 1.5em;">Search</a>
+			<input type="text" name="search" placeholder="Search" style="padding:10% 5%; width:200%; background-color: white;" />
+		</div>
+		<div class="col-sm-8">
+			<button class="btn btn-dark " type="submit" name="submit-search" style="align-content:left;margin-left: 75%; width: 90%;">
+				<a href="details.php" style="color: white; font-weight: bold; font-size: 0.8em;">search</a>
 			</button>
 		</div>
+		</div>
 	</form>
-	<h1 style="margin-top: 15%; padding-left: 1.2em; padding-right: 1.2em; font-weight: bold;">Rent Something</h1>
-	<h2 style="font-size: 1.8em; padding-left: 1.2em; padding-right: 1.2em;">Search Results:</h2>
+	
+	<h1 style="margin-top: 10%; padding-left: 0.8em; padding-right: 0.8em; font-weight: bold;">Rent Something</h1>
+	<h2 style="font-size: 1.8em; padding:0.5em 1.6em 1.5em 1.7em;">Search Results:</h2>
 	<div class="item-search-container">
 		<?php
 		$sql = "SELECT * FROM item";

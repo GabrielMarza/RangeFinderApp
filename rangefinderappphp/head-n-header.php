@@ -93,7 +93,7 @@
 			<?php } ?>
 		</div>
 		<button class="openbtn row align-items-start" onclick="openNav()">☰</button>
-		<a class="openbtn" href="index.php"><img src="img/home.png"></a>
+		<a class="closebtn" href="index.php"><img src="img/home.png"></a>
 		<script>
 		function openNav() {
 			document.getElementById("mySidepanel").style.width = "250px";
