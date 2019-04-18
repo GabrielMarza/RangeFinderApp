@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_1">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_1" data-name="iPhone X/XS – 1" clip-path="url(#clip-iPhone_X_XS_1)">
+    <rect width="375" height="812" fill="#fff"/>
+    <g id="Group_3" data-name="Group 3">
+      <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(46 176)" fill="#f0f0f0" stroke="#707070" stroke-width="2">
+        <rect width="284" height="70" rx="35" stroke="none"/>
+        <rect x="1" y="1" width="282" height="68" rx="34" fill="none"/>
+      </g>
+      <text id="Sign_in" data-name="Sign in" transform="translate(188 223)" fill="#707070" font-size="32" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-51.84" y="0">Sign in</tspan></text>
+    </g>
+    <g id="Group_1" data-name="Group 1">
+      <g id="Path_1" data-name="Path 1" fill="#f0f0f0">
+        <path d="M 374 49 L 1 49 L 1 1 L 374 1 L 374 49 Z" stroke="none"/>
+        <path d="M 2 2 L 2 48 L 373 48 L 373 2 L 2 2 M 0 0 L 375 0 L 375 50 L 0 50 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" fill="#f0f0f0" stroke="#707070" stroke-width="2">
+        <rect width="100" height="50" stroke="none"/>
+        <rect x="1" y="1" width="98" height="48" fill="none"/>
+      </g>
+      <text id="LOGO" transform="translate(16 34)" fill="#707070" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">LOGO</tspan></text>
+      <line id="Line_1" data-name="Line 1" x1="40" transform="translate(319.5 25.5)" fill="none" stroke="#707070" stroke-width="5"/>
+      <line id="Line_2" data-name="Line 2" x1="40" transform="translate(319.5 14.5)" fill="none" stroke="#707070" stroke-width="5"/>
+      <line id="Line_3" data-name="Line 3" x1="40" transform="translate(319.5 36.5)" fill="none" stroke="#707070" stroke-width="5"/>
+    </g>
+    <g id="Group_2" data-name="Group 2">
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(0 50)" fill="#f0f0f0" stroke="#707070" stroke-width="2">
+        <rect width="188" height="50" stroke="none"/>
+        <rect x="1" y="1" width="186" height="48" fill="none"/>
+      </g>
+      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(187 50)" fill="#fcfcfc" stroke="#707070" stroke-width="2">
+        <rect width="188" height="50" stroke="none"/>
+        <rect x="1" y="1" width="186" height="48" fill="none"/>
+      </g>
+      <text id="Rent" transform="translate(69 84)" fill="#707070" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Rent</tspan></text>
+      <text id="Rent_Out" data-name="Rent Out" transform="translate(233 84)" fill="#707070" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Rent Out</tspan></text>
+    </g>
+    <text id="_Rent_out_is_selected_" data-name="(Rent out is
+selected)" transform="translate(365 123)" fill="#2f97be" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-121.8" y="0">(Rent out is</tspan><tspan x="-96.888" y="29">selected)</tspan></text>
+    <g id="Group_4" data-name="Group 4">
+      <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(46 294)" fill="#f0f0f0" stroke="#707070" stroke-width="2">
+        <rect width="284" height="70" rx="35" stroke="none"/>
+        <rect x="1" y="1" width="282" height="68" rx="34" fill="none"/>
+      </g>
+      <text id="Sign_up" data-name="Sign up" transform="translate(193 341)" fill="#707070" font-size="32" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-57.488" y="0">Sign up</tspan></text>
+    </g>
+    <text id="_The_first_time_the_user_selects_Rent_Out_they_will_have_to_sign_in_or_register_" data-name="(The first time the user selects
+“Rent Out”, they will have
+to sign in, or register)" transform="translate(188 429)" fill="#2f97be" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-160.692" y="0">(The first time the user selects</tspan><tspan x="-137.136" y="29">“Rent Out”, they will have</tspan><tspan x="-112.896" y="58">to sign in, or register)</tspan></text>
+  </g>
+</svg>

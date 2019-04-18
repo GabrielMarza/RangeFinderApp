@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_3">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_3" data-name="iPhone X/XS – 3" clip-path="url(#clip-iPhone_X_XS_3)">
+    <rect width="375" height="812" fill="#fff"/>
+    <g id="Group_1" data-name="Group 1">
+      <g id="Path_1" data-name="Path 1" fill="#f0f0f0">
+        <path d="M 374 49 L 1 49 L 1 1 L 374 1 L 374 49 Z" stroke="none"/>
+        <path d="M 2 2 L 2 48 L 373 48 L 373 2 L 2 2 M 0 0 L 375 0 L 375 50 L 0 50 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" fill="#f0f0f0" stroke="#707070" stroke-width="2">
+        <rect width="100" height="50" stroke="none"/>
+        <rect x="1" y="1" width="98" height="48" fill="none"/>
+      </g>
+      <text id="LOGO" transform="translate(16 34)" fill="#707070" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">LOGO</tspan></text>
+      <line id="Line_1" data-name="Line 1" x1="40" transform="translate(319.5 25.5)" fill="none" stroke="#707070" stroke-width="5"/>
+      <line id="Line_2" data-name="Line 2" x1="40" transform="translate(319.5 14.5)" fill="none" stroke="#707070" stroke-width="5"/>
+      <line id="Line_3" data-name="Line 3" x1="40" transform="translate(319.5 36.5)" fill="none" stroke="#707070" stroke-width="5"/>
+    </g>
+    <g id="Group_2" data-name="Group 2">
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(0 50)" fill="#f0f0f0" stroke="#707070" stroke-width="2">
+        <rect width="188" height="50" stroke="none"/>
+        <rect x="1" y="1" width="186" height="48" fill="none"/>
+      </g>
+      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(187 50)" fill="#fcfcfc" stroke="#707070" stroke-width="2">
+        <rect width="188" height="50" stroke="none"/>
+        <rect x="1" y="1" width="186" height="48" fill="none"/>
+      </g>
+      <text id="Rent" transform="translate(69 84)" fill="#707070" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Rent</tspan></text>
+      <text id="Rent_Out" data-name="Rent Out" transform="translate(233 84)" fill="#707070" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Rent Out</tspan></text>
+    </g>
+    <g id="Group_14" data-name="Group 14">
+      <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+        <rect width="375" height="100" stroke="none"/>
+        <rect x="1" y="1" width="373" height="98" fill="none"/>
+      </g>
+      <text id="My_Camera_1" data-name="My Camera 1" transform="translate(355 131)" fill="#707070" font-size="32" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-201.472" y="0">My Camera 1</tspan></text>
+      <text id="Snippet_of_product_description_" data-name="Snippet of product description…" transform="translate(355 154)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-234.128" y="0">Snippet of product description…</tspan></text>
+      <text id="Price_for_rent:_110.00" data-name="Price for rent: $110.00" transform="translate(355 173)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-158.864" y="0">Price for rent: </tspan><tspan y="0" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700">$110.00</tspan></text>
+      <text id="Offers:_5" data-name="Offers: 5" transform="translate(355 192)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-61.104" y="0">Offers: </tspan><tspan y="0" fill="#36b100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700">5</tspan></text>
+      <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+        <rect width="100" height="100" stroke="none"/>
+        <rect x="1" y="1" width="98" height="98" fill="none"/>
+      </g>
+      <g id="Group_13" data-name="Group 13">
+        <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(16 138)" fill="#707070" stroke="#707070" stroke-width="1">
+          <rect width="41" height="29" stroke="none"/>
+          <rect x="0.5" y="0.5" width="40" height="28" fill="none"/>
+        </g>
+        <g id="Path_2" data-name="Path 2" transform="translate(57 138)" fill="#707070">
+          <path d="M 22.5 28.19330024719238 L 0.5 17.26393890380859 L 0.5 9.293620109558105 L 22.5 0.7311340570449829 L 22.5 28.19330024719238 Z" stroke="none"/>
+          <path d="M 22 1.462278366088867 L 1 9.635560989379883 L 1 16.95404243469238 L 22 27.3866138458252 L 22 1.462278366088867 M 23 0 L 23 29 L 0 17.57384872436523 L 0 8.951690673828125 L 23 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(16 119)" fill="#707070" stroke="#707070" stroke-width="1">
+          <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+          <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+        </g>
+        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(37 119)" fill="#707070" stroke="#707070" stroke-width="1">
+          <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+          <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(0 100)">
+      <g id="Rectangle_15-2" data-name="Rectangle 15" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+        <rect width="375" height="100" stroke="none"/>
+        <rect x="1" y="1" width="373" height="98" fill="none"/>
+      </g>
+      <text id="My_Camera_2" data-name="My Camera 2" transform="translate(355 131)" fill="#707070" font-size="32" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-201.472" y="0">My Camera 2</tspan></text>
+      <text id="Snippet_of_product_description_2" data-name="Snippet of product description…" transform="translate(355 154)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-234.128" y="0">Snippet of product description…</tspan></text>
+      <text id="Price_for_rent:_85.00" data-name="Price for rent: $85.00" transform="translate(355 173)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-149.968" y="0">Price for rent: </tspan><tspan y="0" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700">$85.00</tspan></text>
+      <text id="Offers:_3" data-name="Offers: 3" transform="translate(356 192)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-61.104" y="0">Offers: </tspan><tspan y="0" fill="#36b100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700">3</tspan></text>
+      <g id="Rectangle_16-2" data-name="Rectangle 16" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+        <rect width="100" height="100" stroke="none"/>
+        <rect x="1" y="1" width="98" height="98" fill="none"/>
+      </g>
+      <g id="Group_13-2" data-name="Group 13">
+        <g id="Rectangle_17-2" data-name="Rectangle 17" transform="translate(16 138)" fill="#707070" stroke="#707070" stroke-width="1">
+          <rect width="41" height="29" stroke="none"/>
+          <rect x="0.5" y="0.5" width="40" height="28" fill="none"/>
+        </g>
+        <g id="Path_2-2" data-name="Path 2" transform="translate(57 138)" fill="#707070">
+          <path d="M 22.5 28.19330024719238 L 0.5 17.26393890380859 L 0.5 9.293620109558105 L 22.5 0.7311340570449829 L 22.5 28.19330024719238 Z" stroke="none"/>
+          <path d="M 22 1.462278366088867 L 1 9.635560989379883 L 1 16.95404243469238 L 22 27.3866138458252 L 22 1.462278366088867 M 23 0 L 23 29 L 0 17.57384872436523 L 0 8.951690673828125 L 23 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Ellipse_1-2" data-name="Ellipse 1" transform="translate(16 119)" fill="#707070" stroke="#707070" stroke-width="1">
+          <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+          <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+        </g>
+        <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(37 119)" fill="#707070" stroke="#707070" stroke-width="1">
+          <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+          <circle cx="9.5" cy="9.5" r="9" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18">
+      <g id="Group_17" data-name="Group 17">
+        <g id="Group_16" data-name="Group 16" transform="translate(0 200)">
+          <g id="Rectangle_15-3" data-name="Rectangle 15" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+            <rect width="375" height="100" stroke="none"/>
+            <rect x="1" y="1" width="373" height="98" fill="none"/>
+          </g>
+          <text id="My_Light_Kit_1" data-name="My Light Kit 1" transform="translate(355 131)" fill="#707070" font-size="32" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-209.76" y="0">My Light Kit 1</tspan></text>
+          <text id="Snippet_of_product_description_3" data-name="Snippet of product description…" transform="translate(355 154)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-234.128" y="0">Snippet of product description…</tspan></text>
+          <text id="Price_for_rent:_74.00" data-name="Price for rent: $74.00" transform="translate(355 173)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-149.968" y="0">Price for rent: </tspan><tspan y="0" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700">$74.00</tspan></text>
+          <text id="Offers:_3-2" data-name="Offers: 3" transform="translate(356 192)" fill="#707070" font-size="16" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-61.104" y="0">Offers: </tspan><tspan y="0" fill="#36b100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700">3</tspan></text>
+          <g id="Rectangle_16-3" data-name="Rectangle 16" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+            <rect width="100" height="100" stroke="none"/>
+            <rect x="1" y="1" width="98" height="98" fill="none"/>
+          </g>
+          <g id="Rectangle_18" data-name="Rectangle 18" transform="matrix(0.978, 0.208, -0.208, 0.978, 18.762, 133.717)" fill="#707070" stroke="#707070" stroke-width="1">
+            <rect width="27" height="23" stroke="none"/>
+            <rect x="0.5" y="0.5" width="26" height="22" fill="none"/>
+          </g>
+          <g id="Path_6" data-name="Path 6" transform="matrix(0.934, 0.358, -0.358, 0.934, 35.875, 133.44)" fill="#707070">
+            <path d="M 16.30832290649414 25.59180450439453 L 7.910177707672119 20.76145553588867 L 4.722927570343018 8.533220291137695 L 16.30832290649414 1.744946479797363 L 16.30832290649414 25.59180450439453 Z" stroke="none"/>
+            <path d="M 15.30832290649414 3.489898681640625 L 5.88149356842041 9.013395309448242 L 8.772120475769043 20.10360145568848 L 15.30832290649414 23.86301803588867 L 15.30832290649414 3.489898681640625 M 17.30832290649414 0 L 17.30832290649414 27.32057952880859 L 7.048232078552246 21.4193000793457 L 3.564361572265625 8.053049087524414 L 17.30832290649414 0 Z" stroke="none" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Path_3" data-name="Path 3" transform="translate(52 319)" fill="#707070">
+          <path d="M -0.1771928519010544 22.7541332244873 L -5.193856239318848 19.08135604858398 L 0.3046970367431641 0.7252804040908813 L 8.832578659057617 5.211967468261719 L -0.1771928519010544 22.7541332244873 Z" stroke="none"/>
+          <path d="M 0.6093752384185791 1.450563430786133 L -4.613561630249023 18.88653755187988 L -0.354393482208252 22.00474166870117 L 8.161613464355469 5.423944473266602 L 0.6093752384185791 1.450563430786133 M -5.006790161132812e-06 0 L 9.503535270690918 5 L -5.006790161132812e-06 23.5035400390625 L -5.774174690246582 19.27618026733398 L -5.006790161132812e-06 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Path_4" data-name="Path 4" transform="translate(64.974 372.013) rotate(120)" fill="#707070">
+          <path d="M -0.1771928519010544 22.7541332244873 L -5.193856239318848 19.08135604858398 L 0.3046970367431641 0.7252804040908813 L 8.832578659057617 5.211967468261719 L -0.1771928519010544 22.7541332244873 Z" stroke="none"/>
+          <path d="M 0.6093752384185791 1.450563430786133 L -4.613561630249023 18.88653755187988 L -0.354393482208252 22.00474166870117 L 8.161613464355469 5.423944473266602 L 0.6093752384185791 1.450563430786133 M -5.006790161132812e-06 0 L 9.503535270690918 5 L -5.006790161132812e-06 23.5035400390625 L -5.774174690246582 19.27618026733398 L -5.006790161132812e-06 0 Z" stroke="none" fill="#707070"/>
+        </g>
+        <g id="Path_5" data-name="Path 5" transform="translate(72.974 360.013) rotate(120)" fill="#707070">
+          <path d="M -1.819040894508362 24.69198608398438 L -18.75301361083984 7.849092483520508 L 4.706214904785156 -1.02128803730011 L 9.902888298034668 17.9243335723877 L -1.819040894508362 24.69198608398438 Z" stroke="none"/>
+          <path d="M 4.369314193725586 -0.3593425750732422 L -17.84989547729492 8.042159080505371 L -1.737712860107422 24.06767272949219 L 9.318576812744141 17.68432235717773 L 4.369314193725586 -0.3593425750732422 M 5.043117523193359 -1.683223724365234 L 10.4871768951416 18.16433525085449 L -1.900382041931152 25.3162956237793 L -19.65615081787109 7.656036376953125 L 5.043117523193359 -1.683223724365234 Z" stroke="none" fill="#707070"/>
+        </g>
+      </g>
+      <line id="Line_4" data-name="Line 4" x1="7" y2="43" transform="translate(21.5 357.5)" fill="none" stroke="#707070" stroke-width="5"/>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(0 301)">
+      <g id="Rectangle_15-4" data-name="Rectangle 15" transform="translate(0 99)" fill="#fff" stroke="#707070" stroke-width="2">
+        <rect width="375" height="100" stroke="none"/>
+        <rect x="1" y="1" width="373" height="98" fill="none"/>
+      </g>
+      <text id="Add_a_new_item" data-name="Add a new item" transform="translate(353 161)" fill="#707070" font-size="32" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-236.352" y="0">Add a new item</tspan></text>
+      <g id="Rectangle_16-4" data-name="Rectangle 16" transform="translate(0 100)" fill="#fff" stroke="#707070" stroke-width="2">
+        <rect width="100" height="100" stroke="none"/>
+        <rect x="1" y="1" width="98" height="98" fill="none"/>
+      </g>
+      <g id="Group_20" data-name="Group 20">
+        <line id="Line_5" data-name="Line 5" y2="50" transform="translate(50.5 123.5)" fill="none" stroke="#707070" stroke-width="10"/>
+        <line id="Line_6" data-name="Line 6" x1="50" transform="translate(25.5 148.5)" fill="none" stroke="#707070" stroke-width="10"/>
+      </g>
+    </g>
+    <text id="_We_will_now_select_the_Add_a_new_product_option_for_the_next_screen_" data-name="(We will now select the
+“Add a new product” option
+for the next screen)" transform="translate(188 579)" fill="#2f97be" font-size="24" font-family="HelveticaNeue, Helvetica Neue"><tspan x="-121.74" y="0">(We will now select the</tspan><tspan x="-150.036" y="29">“Add a new product” option</tspan><tspan x="-103.344" y="58">for the next screen)</tspan></text>
+  </g>
+</svg>
