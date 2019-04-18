@@ -1,0 +1,134 @@
+@media (max-width: 640px) and (min-width: 320px){
+ body{
+      font-size:62.5%;
+      font-family:"Microsoft YaHei",Arial; 
+      overflow-x:hidden; overflow-y:auto;
+    }
+    .viewport{ 
+      max-width:844px; 
+      min-width:300px; 
+      margin:0 auto;
+    }
+.content{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.productimg{
+display:center;
+}
+.nameofp{
+	font-size: 2em;
+}
+.price{
+	font-size: 2.5em;	
+}
+.description{
+	font-size: 1.5em;
+	color: grey;
+	margin-bottom: 1.5em;
+}
+.reviewhead{
+	background-color: #ebebeb;
+	margin-left: -10%;
+	margin-right: -10%;
+	padding-top:3% ;
+	padding-bottom:3%;
+	padding-left: 10%;
+}
+.fields{
+margin-bottom: 10%;
+margin-top: 10%;
+}
+.address{
+	font-size: 1.5em;
+	padding-left: 7%;
+}
+
+.loc{
+display: flex;
+}
+ .locimg{
+ 	width:30%;
+ }
+#searchsubmit{
+	padding-bottom: 6%;
+}
+
+.review{
+	font-size: 1.3em;
+	color:grey;
+}
+
+.revbtn{
+	margin-top: 5%;
+}
+#deliver{
+	text-align: center;
+}
+.titledel{
+	font-size: 5em;
+	margin-top: 30%;
+	margin-bottom: 30%;
+}
+
+
+.content #address form input[type=text] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border:none;
+  box-sizing: border-box;
+  background-color: #ebebeb;
+  font-size: 2em;
+}
+#dropdown{
+  width: 100%;
+  padding: 10px 20px 9px 20px;
+  margin-top: 20px ;
+  margin-bottom: -5px;
+  border:none;
+  background-color: #ebebeb;
+  font-size: 2em;
+}
+
+form input[type=number], select {
+width: 46%;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border:none;
+  box-sizing: border-box;
+  background-color: #ebebeb;
+  font-size: 2em;
+}
+.content #address form input[type=number]{
+	margin-left: 7%;
+}
+#country {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 1.8em;
+  border:none;
+  background-color: #ebebeb;
+  box-sizing: border-box;
+}
+#address{
+	margin-top: 30%;
+}
+#addressbtn{
+	margin-top: 20%;
+}
+.carddetails{
+	margin-top: 30%;
+}
+#card2{
+	margin-left: 20%;
+}
+#useraddress{
+	background-color:#ebebeb;
+	padding: 10% 10%; 
+}
+#thank{
+	text-align: center;
+}
+}
